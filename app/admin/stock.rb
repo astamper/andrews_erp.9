@@ -1,4 +1,5 @@
 ActiveAdmin.register Stock do
+  permit_params :initial_quantity, :current_quantity, :unit, :purchase_date, :expiration_date, :purchase_price, :supplier, :batch_number
 
 # See permitted parameters documentation:
 # https://github.com/activeadmin/activeadmin/blob/master/docs/2-resource-customization.md#setting-up-strong-parameters
